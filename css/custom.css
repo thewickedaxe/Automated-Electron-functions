@@ -11,9 +11,26 @@ body{
 .heading h2 {
     text-align: center;
 }
-
+table
+{ 
+    margin-left: auto;
+    margin-right: auto;
+}
 .intro_para p {
     text-align: center;
+}
+.actions {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    padding: 50px;
+}
+.action-button {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: 1px solid #000;
 }
 @keyframes intro_para_animation {
     0%   {color: #111111;}
