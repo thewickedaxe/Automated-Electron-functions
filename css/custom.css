@@ -1,0 +1,46 @@
+body{
+    background:#111111;
+}
+.heading {
+    animation-name: intro_animation;
+    animation-duration: 2s;
+    background-color: #ffffff;
+    align-content: center;
+    color:#111111;
+}
+.heading h2 {
+    text-align: center;
+}
+
+.intro_para p {
+    text-align: center;
+}
+@keyframes intro_para_animation {
+    0%   {color: #111111;}
+    10%   {color: #111111;}
+    20%   {color: #222222;}
+    30%   {color: #333333;}
+    40%   {color: #444444;}
+    50%   {color: #555555;}
+    60%   {color: #666666;}
+    70%   {color: #777777;}
+    80%   {color: #888888;}
+    100%   {color: #999999;}
+}
+@keyframes intro_animation {
+    100%   {color: #111111;}
+    90%   {color: #111111;}
+    80%   {color: #222222;}
+    70%   {color: #333333;}
+    60%   {color: #444444;}
+    50%   {color: #555555;}
+    40%   {color: #666666;}
+    30%   {color: #777777;}
+    20%   {color: #888888;}
+    10%   {color: #999999;}
+}
+.intro_para {
+    animation-name: intro_para_animation;
+    animation-duration: 4s;
+    color:#999999;
+}
